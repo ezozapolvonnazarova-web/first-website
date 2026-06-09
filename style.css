@@ -1,32 +1,44 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: lightgray;
-    text-align: center;
-    margin: 0;
+  font-family: Arial;
+  margin: 0;
+  background: lightgray;
+  color: black;
 }
 
 header {
-    background-color: green;
-    color: white;
-    padding: 20px;
+  background: steelblue;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+nav {
+  background: darkgray;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
 main {
-    padding: 20px;
-    width: 100vh;
+  padding: 20px;
 }
 
-button {
-    background-color: green;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
+section {
+  background: white;
+  margin: 15px 0;
+  padding: 15px;
+  border-radius: 8px;
 }
 
 footer {
-    background-color: gray;
-    color: white;
-    padding: 10px;
-    margin-top: 20px;
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 10px;
 }
